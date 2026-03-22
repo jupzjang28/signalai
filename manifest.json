@@ -1,0 +1,51 @@
+{
+  "name": "SignalAI — Crypto Futures",
+  "short_name": "SignalAI",
+  "description": "Crypto Futures Signal Dashboard พร้อม TA, Elliott Wave และ Discord Alert",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "lang": "th",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "BTC/USDT",
+      "short_name": "BTC",
+      "description": "เปิดดู BTC Futures",
+      "url": "/?pair=BTCUSDT",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "ETH/USDT",
+      "short_name": "ETH",
+      "description": "เปิดดู ETH Futures",
+      "url": "/?pair=ETHUSDT",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "SignalAI Mobile"
+    }
+  ]
+}
